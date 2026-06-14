@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Smart Drip adalah sistem irigasi tetes otomatis berbasis IoT untuk membantu penyiraman tanaman cabai secara terukur, efisien, dan mudah dipantau." />
+  <title>Smart Drip | Sistem Irigasi Tetes Otomatis</title>
+  <link rel="icon" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#beranda" aria-label="Smart Drip beranda">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="images/logo.png" alt="" />
+        </span>
+        <span>
+          <strong>Smart Drip</strong>
+          <small>IoT Drip Irrigation</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#fitur" class="nav-link">Fitur</a>
+        <a href="#teknologi" class="nav-link">Prototype</a>
+        <a href="#ui-aplikasi" class="nav-link">UI Aplikasi</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" aria-label="Navigasi mobile">
+      <a href="#beranda">Beranda</a>
+
+      <a href="#fitur">Fitur</a>
+      <a href="#teknologi">Teknologi</a>
+      <a href="#ui-aplikasi">UI Aplikasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero section-padding">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <h1>Smart Drip</h1>
+          <h2>Sistem Irigasi Tetes Otomatis</h2>
+          <p>
+            Smart Drip merupakan sistem irigasi tetes berbasis IoT yang dirancang untuk membantu proses
+            penyiraman tanaman cabai menjadi lebih terukur, efisien, dan mudah dipantau.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#fitur">Lihat Fitur</a>
+            <a class="btn secondary" href="#teknologi">Lihat Prototype</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1" aria-label="Mockup iPhone Smart Drip">
+          <div class="phone-mockup-wrapper">
+            <div class="phone-bg-shape" aria-hidden="true"></div>
+
+            <div class="phone-mockup" data-phone-tilt>
+              <span class="phone-side-button side-button-left"></span>
+              <span class="phone-side-button side-button-right"></span>
+
+              <div class="phone-screen">
+                <div class="dynamic-island" aria-hidden="true"></div>
+                <img class="phone-logo" src="images/logo.png" alt="Logo Smart Drip" />
+                <div class="phone-bottom-detail" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fitur" class="section-padding soft-bg">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">Fitur Utama</span>
+          <h2>Fitur Utama Smart Drip</h2>
+          <p>
+            Fitur Smart Drip dirancang untuk membantu proses penyiraman, pemantauan, dan pengambilan
+            keputusan sistem secara lebih terukur.
+          </p>
+        </div>
+
+        <div class="feature-grid card-grid bento-section" data-magic-bento>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">01</span><span>Monitoring</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Monitoring kondisi tanaman</h3><p class="magic-bento-card__description">Menampilkan informasi kondisi tanaman dan lingkungan yang dibaca oleh sensor.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">02</span><span>Otomatis</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Penyiraman otomatis</h3><p class="magic-bento-card__description">Sistem dapat mengaktifkan penyiraman berdasarkan hasil pengolahan data.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">03</span><span>Drip</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Irigasi tetes hemat air</h3><p class="magic-bento-card__description">Air dialirkan secara terarah ke area tanaman melalui jalur irigasi tetes.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">04</span><span>Dashboard</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Dashboard pemantauan</h3><p class="magic-bento-card__description">Data utama sistem ditampilkan dalam dashboard yang mudah dibaca.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">05</span><span>Riwayat</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Riwayat penyiraman</h3><p class="magic-bento-card__description">Aktivitas penyiraman dapat dicatat untuk evaluasi dan pemantauan.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">06</span><span>Kontrol</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Mode manual dan otomatis</h3><p class="magic-bento-card__description">Pengguna dapat memahami status kendali sistem sesuai kebutuhan penggunaan.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">07</span><span>Decision</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Pengambilan keputusan sistem</h3><p class="magic-bento-card__description">Sistem membantu menentukan kebutuhan penyiraman berdasarkan data yang tersedia.</p></div>
+          </article>
+          <article class="feature-card magic-bento-card magic-bento-card--border-glow magic-bento-card--text-autohide reveal">
+            <div class="magic-bento-card__header"><span class="magic-bento-card__label">08</span><span>Sensor</span></div>
+            <div class="magic-bento-card__content"><h3 class="magic-bento-card__title">Integrasi data sensor</h3><p class="magic-bento-card__description">Data sensor digunakan sebagai dasar monitoring dan pemrosesan sistem.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="teknologi" class="prototype-section section-padding soft-bg">
+      <div class="container prototype-layout">
+        <div class="prototype-copy reveal">
+          <span class="eyebrow">Prototype</span>
+          <h2>Prototype sistem irigasi tetes Smart Drip</h2>
+          <p>
+            Prototype Smart Drip menggabungkan box kontrol IoT, sensor suhu, sensor kelembapan tanah,
+            konektor daya, dan kabel sensor untuk membantu proses monitoring serta penyiraman otomatis
+            pada tanaman cabai.
+          </p>
+
+          <div class="tech-grid">
+            <span>ESP32</span>
+            <span>Sensor suhu DS18B20</span>
+            <span>Sensor kelembapan tanah</span>
+            <span>Relay module</span>
+            <span>Pompa air</span>
+            <span>Irigasi tetes</span>
+            <span>Dashboard monitoring</span>
+            <span>IoT</span>
+            <span>Fuzzy Logic</span>
+            <span>ETc Hargreaves-Samani</span>
+            <span>Open-Meteo API</span>
+          </div>
+        </div>
+
+        <div class="prototype-annotated reveal delay-1">
+          <img src="images/prototype.png" alt="Prototype Smart Drip" class="prototype-image" />
+
+          <div class="annotation annotation-temperature">
+            <div class="annotation-label">Sensor Suhu<br>DS18B20</div>
+            <div class="annotation-line"></div>
+            <div class="annotation-dot"></div>
+            <div class="annotation-tooltip">Digunakan untuk membaca suhu lingkungan atau media sekitar tanaman.</div>
+          </div>
+
+          <div class="annotation annotation-soil">
+            <div class="annotation-label">Sensor<br>Kelembapan Tanah</div>
+            <div class="annotation-line"></div>
+            <div class="annotation-dot"></div>
+            <div class="annotation-tooltip">Digunakan untuk membaca kadar kelembapan tanah.</div>
+          </div>
+
+          <div class="annotation annotation-usb">
+            <div class="annotation-label">USB A Male</div>
+            <div class="annotation-line"></div>
+            <div class="annotation-dot"></div>
+            <div class="annotation-tooltip">Digunakan sebagai konektor daya atau komunikasi perangkat.</div>
+          </div>
+
+          <div class="annotation annotation-box">
+            <div class="annotation-label">Box Kontrol IoT</div>
+            <div class="annotation-line"></div>
+            <div class="annotation-dot"></div>
+            <div class="annotation-tooltip">Berisi rangkaian utama sistem Smart Drip berbasis IoT.</div>
+          </div>
+
+          <div class="annotation annotation-cable">
+            <div class="annotation-label">Kabel Sensor</div>
+            <div class="annotation-line"></div>
+            <div class="annotation-dot"></div>
+            <div class="annotation-tooltip">Menghubungkan sensor dengan rangkaian kontrol utama.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keunggulan" class="section-padding">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">Keunggulan</span>
+          <h2>Perbandingan penyiraman manual dan Smart Drip</h2>
+          <p>
+            Smart Drip menawarkan pendekatan yang lebih terukur melalui otomasi, pemantauan, dan
+            distribusi air berbasis irigasi tetes.
+          </p>
+        </div>
+
+        <div class="compare-grid">
+          <article class="compare-card muted-card reveal">
+            <h3>Penyiraman Manual</h3>
+            <ul>
+              <li>Bergantung pada manusia.</li>
+              <li>Jumlah air tidak selalu konsisten.</li>
+              <li>Sulit dipantau.</li>
+              <li>Risiko lupa menyiram.</li>
+            </ul>
+          </article>
+          <article class="compare-card highlight-card reveal delay-1">
+            <h3>Smart Drip</h3>
+            <ul>
+              <li>Bekerja otomatis.</li>
+              <li>Penyiraman lebih terukur.</li>
+              <li>Dapat dimonitor melalui dashboard.</li>
+              <li>Mendukung efisiensi penggunaan air.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ui-aplikasi" class="section-padding soft-bg">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">UI Mockup Aplikasi</span>
+          <h2>Preview Tampilan Aplikasi</h2>
+          <p>
+            Tampilan aplikasi Smart Drip dirancang untuk memberikan kemudahan bagi pengguna dalam monitoring dan kontrol sistem irigasi tetes.
+          </p>
+        </div>
+
+        <div class="mockup-layout reveal">
+          <aside class="mockup-tabs" aria-label="Daftar mockup">
+            <button class="mockup-tab active" type="button" data-mockup="0">Dashboard & Monitoring</button>
+            <button class="mockup-tab" type="button" data-mockup="1">Kontrol Sistem</button>
+            <button class="mockup-tab" type="button" data-mockup="2">Log Irigasi</button>
+            <button class="mockup-tab" type="button" data-mockup="3">Konfigurasi Tanaman</button>
+          </aside>
+
+          <article class="mockup-preview">
+            <div class="mockup-image-wrap">
+              <div class="ui-phone-frame">
+                <div class="ui-phone-screen">
+                  <img id="mockupImage" src="images/monitoring.png" alt="Dashboard dan monitoring aplikasi Smart Drip" />
+                </div>
+              </div>
+            </div>
+            <div class="mockup-copy">
+              <span class="eyebrow">Preview Tampilan</span>
+              <h3 id="mockupTitle">Dashboard & Monitoring</h3>
+              <p id="mockupDesc">Menampilkan ringkasan kondisi sistem, data sensor, status pompa, nilai ETc, dan prakiraan cuaca harian.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#beranda" aria-label="Smart Drip beranda">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="images/logo.png" alt="" />
+          </span>
+          <span>
+            <strong>Smart Drip</strong>
+            <small>Sistem Irigasi Tetes Otomatis</small>
+          </span>
+        </a>
+        <p>Smart Drip adalah sistem irigasi tetes otomatis berbasis IoT untuk tanaman cabai.</p>
+      </div>
+      <div class="footer-nav-group">
+        <nav class="footer-links" aria-label="Navigasi footer">
+          <a href="#fitur">Fitur</a>
+          <a href="#cara-kerja">Cara Kerja</a>
+          <a href="#teknologi">Teknologi</a>
+          <a href="#dokumentasi">Dokumentasi</a>
+          <a href="#manfaat">Manfaat</a>
+        </nav>
+        <div class="footer-contact" aria-label="Kontak pembuat">
+          <span>Kontak Pembuat</span>
+          <div>
+            <a href="https://www.linkedin.com/in/ilhamprygap/" aria-label="LinkedIn pembuat">LinkedIn</a>
+            <a href="https://github.com/ilhampryga" aria-label="GitHub pembuat">GitHub</a>
+            <a href="#" aria-label="Portofolio pembuat">Portofolio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p>&copy; 2026 Smart Drip. Sistem Irigasi Tetes Otomatis Berbasis IoT.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

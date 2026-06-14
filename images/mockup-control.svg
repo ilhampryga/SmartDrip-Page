@@ -1,0 +1,21 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="44" fill="#F0FDF0"/>
+  <rect x="60" y="56" width="1080" height="648" rx="36" fill="white" stroke="#CDEECD" stroke-width="2"/>
+  <rect x="100" y="96" width="1000" height="72" rx="24" fill="#DCF9D9"/>
+  <circle cx="140" cy="132" r="16" fill="#72CE76"/>
+  <rect x="176" y="118" width="220" height="28" rx="14" fill="#45A35D" opacity="0.8"/>
+  <rect x="875" y="116" width="180" height="32" rx="16" fill="#BFF1BD"/>
+  <text x="100" y="224" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#173F25">Kontrol Irigasi</text>
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="24" fill="#627366">Mode otomatis/manual dan status pompa</text>
+  
+  <rect x="100" y="320" width="440" height="290" rx="30" fill="#EFFDF0" stroke="#CDEECD"/>
+  <text x="145" y="395" font-family="Arial" font-size="34" font-weight="700" fill="#173F25">Mode Otomatis</text>
+  <rect x="145" y="440" width="260" height="92" rx="46" fill="#72CE76"/>
+  <circle cx="355" cy="486" r="36" fill="white"/>
+  <rect x="600" y="320" width="460" height="130" rx="30" fill="#DCF9D9"/>
+  <rect x="600" y="480" width="460" height="130" rx="30" fill="#EFFDF0" stroke="#CDEECD"/>
+  <text x="645" y="395" font-family="Arial" font-size="42" font-weight="700" fill="#173F25">Pompa ON</text>
+  <text x="645" y="555" font-family="Arial" font-size="42" font-weight="700" fill="#173F25">Menyiram Sedang</text>
+
+  <text x="100" y="665" font-family="Arial, sans-serif" font-size="20" fill="#627366">Placeholder — ganti dengan mockup atau dokumentasi asli</text>
+</svg>

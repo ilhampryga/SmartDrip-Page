@@ -1,0 +1,17 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="44" fill="#F0FDF0"/>
+  <rect x="60" y="56" width="1080" height="648" rx="36" fill="white" stroke="#CDEECD" stroke-width="2"/>
+  <rect x="100" y="96" width="1000" height="72" rx="24" fill="#DCF9D9"/>
+  <circle cx="140" cy="132" r="16" fill="#72CE76"/>
+  <rect x="176" y="118" width="220" height="28" rx="14" fill="#45A35D" opacity="0.8"/>
+  <rect x="875" y="116" width="180" height="32" rx="16" fill="#BFF1BD"/>
+  <text x="100" y="224" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#173F25">Monitoring Data</text>
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="24" fill="#627366">Grafik sensor dan tren penyiraman</text>
+  
+  <rect x="100" y="320" width="960" height="290" rx="28" fill="#EFFDF0" stroke="#CDEECD"/>
+  <line x1="150" y1="570" x2="970" y2="570" stroke="#173F25" opacity="0.16" stroke-width="4"/>
+  <rect x="150" y="490" width="70" height="80" rx="22" fill="#72CE76" opacity="0.85"/><rect x="265" y="425" width="70" height="145" rx="22" fill="#72CE76" opacity="0.85"/><rect x="380" y="460" width="70" height="110" rx="22" fill="#72CE76" opacity="0.85"/><rect x="495" y="365" width="70" height="205" rx="22" fill="#72CE76" opacity="0.85"/><rect x="610" y="410" width="70" height="160" rx="22" fill="#72CE76" opacity="0.85"/><rect x="725" y="320" width="70" height="250" rx="22" fill="#72CE76" opacity="0.85"/><rect x="840" y="380" width="70" height="190" rx="22" fill="#72CE76" opacity="0.85"/>
+  <path d="M150 505 C250 430 330 470 430 395 C560 300 650 430 750 345 C830 275 900 325 970 250" stroke="#245D35" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <text x="100" y="665" font-family="Arial, sans-serif" font-size="20" fill="#627366">Placeholder — ganti dengan mockup atau dokumentasi asli</text>
+</svg>

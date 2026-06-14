@@ -1,0 +1,17 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="44" fill="#F0FDF0"/>
+  <rect x="60" y="56" width="1080" height="648" rx="36" fill="white" stroke="#CDEECD" stroke-width="2"/>
+  <rect x="100" y="96" width="1000" height="72" rx="24" fill="#DCF9D9"/>
+  <circle cx="140" cy="132" r="16" fill="#72CE76"/>
+  <rect x="176" y="118" width="220" height="28" rx="14" fill="#45A35D" opacity="0.8"/>
+  <rect x="875" y="116" width="180" height="32" rx="16" fill="#BFF1BD"/>
+  <text x="100" y="224" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#173F25">Instalasi Drip</text>
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="24" fill="#627366">Foto jalur irigasi tetes</text>
+  
+  <rect x="100" y="310" width="960" height="310" rx="34" fill="#EFFDF0" stroke="#CDEECD" stroke-width="2" stroke-dasharray="16 16"/>
+  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="96" fill="#45A35D">💧</text>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#173F25">Area Gambar Dokumentasi</text>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#627366">Ganti file SVG ini dengan foto asli project</text>
+
+  <text x="100" y="665" font-family="Arial, sans-serif" font-size="20" fill="#627366">Placeholder — ganti dengan mockup atau dokumentasi asli</text>
+</svg>
